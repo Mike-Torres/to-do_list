@@ -1,0 +1,31 @@
+.title{
+    position: absolute;
+    height: 125px;
+    width: 400px;
+    text-align: center;
+    top: 20%;
+    left: 30%;
+    background-color: grey;  
+    border: black solid 2px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input{
+    width: 300px;
+}
+
+.list{
+    position: relative;
+    margin-top: 40px;
+}
+
+.remove {
+    float: right;
+    margin-right: 10px;  
+}
+
+.remove:hover {
+    cursor: pointer;
+    float: right;
+    color: red; 
+}
