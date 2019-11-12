@@ -1,10 +1,10 @@
 .title{
     position: absolute;
     height: 125px;
-    width: 400px;
+    width: 500px;
     text-align: center;
     top: 20%;
-    left: 30%;
+    left: 35%;
     background-color: grey;  
     border: black solid 2px; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -14,9 +14,10 @@ input{
     width: 300px;
 }
 
-.list{
+#list{
     position: relative;
     margin-top: 40px;
+    background-color: aqua;
 }
 
 .remove {
