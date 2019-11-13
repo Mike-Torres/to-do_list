@@ -11,11 +11,8 @@ function inputText() {
   }
 
 
-
-// document.getElementById("remove").addEventListener("click", function () {
-//     let remove = (index) => {
-//         this.index.splice(index, 1);
-//     }
-//   }, false);
+function removeText() {
+    // Step 2 
+}
 
 
