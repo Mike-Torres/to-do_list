@@ -1,11 +1,12 @@
-window.addEventListener('keydown', keyPressEnter, false);
-
 const toDoList = [];
 
-function keyPressEnter(key){
-  if(key.keyCode == '13'){
-   console.log('dsada')
-  }
+document.addEventListener("keydown", keyDownEnter, false);
+
+function keyDownEnter(e) {
+  if(e.keyCode == 13) {
+  alert("You hit the enter key.");
+  console.log('Hey')
+  } 
 }
 
 function inputText() {
@@ -17,7 +18,6 @@ function inputText() {
   
   console.log('working')
  }
-
 
 function removeText() {
   // var list = document.getElementById('list')
