@@ -1,4 +1,12 @@
+window.addEventListener('keydown', keyPressEnter, false);
+
 const toDoList = [];
+
+function keyPressEnter(key){
+  if(key.keyCode == '13'){
+   console.log('dsada')
+  }
+}
 
 function inputText() {
   var item = document.getElementById("input").value;   //input value of what's being typed in
