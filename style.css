@@ -14,10 +14,16 @@ input{
     width: 300px;
 }
 
+li:hover{
+    cursor: pointer;
+    background-color:red;
+}
+
 #list{
     position: relative;
     margin-top: 40px;
     background-color: aqua;
+    list-style: none;
 }
 
 .remove {

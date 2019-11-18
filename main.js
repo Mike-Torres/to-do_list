@@ -20,8 +20,10 @@ function inputText() {
 
 function removeText() {
   var list = document.getElementsByTagName("li"); // or document.querySelectorAll("li"); 
-  for (var i = 0; i < list.length; i++) {
-    list[i].onclick = function() {this.parentNode.removeChild(this);}
+  for(var i = 0; i < list.length; i++) {
+    list[i].onclick = function() {
+      this.parentNode.removeChild(this);
+    }
   }
 }
 
