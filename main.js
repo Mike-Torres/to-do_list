@@ -17,15 +17,12 @@ function inputText() {
   document.getElementById('list').appendChild(newItem) //seperate entity... this is where the source of truth is actually being displayed
  }
 
-function removeText() {
-  // var list = document.getElementById('list')
-  // list.removeChild(list.childNodes[0])
 
-  var item = document.getElementById("input").value; 
-  var text = document.createTextNode(item);
-  var newItem = document.createElement('li')
-  
-  newItem.removeChild(text.lastElementChild)
+function removeText() {
+  var list = document.getElementsByTagName("li"); // or document.querySelectorAll("li"); 
+  for (var i = 0; i < list.length; i++) {
+    list[i].onclick = function() {this.parentNode.removeChild(this);}
+  }
 }
 
 
